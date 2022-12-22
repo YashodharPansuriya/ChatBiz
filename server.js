@@ -3,8 +3,6 @@ const http = require('http');
 const path = require('path');
 const socketio = require('socket.io');
 const formatMessage = require('./utils/messages.js');
-require("dotenv").config();
-const { createClient } = redis;
 const {
   userJoin,
   getCurrentUser,
